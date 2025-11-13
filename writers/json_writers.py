@@ -9,7 +9,7 @@ SINGLE_DATA = {
     }
 }
 
-JSON_ENDPOINT_PATH = "data/endpoints.json"
+JSON_ENDPOINT_PATH = "data/endpoints_data.json"
 
 
 def create_first_url_data(url, method):
