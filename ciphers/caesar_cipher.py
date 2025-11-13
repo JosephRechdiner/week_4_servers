@@ -1,5 +1,5 @@
 class CaeserManager:
-    def caeser_encrypter(text, offset):      
+    def encrypter(text, offset):      
         result = ""
         for letter in text:
             if not letter.isalpha():
@@ -14,7 +14,7 @@ class CaeserManager:
         return result
 
 
-    def caeser_decrypter(text, offset):
+    def decrypter(text, offset):
         result = ""
         for letter in text:
             if not letter.isalpha():
