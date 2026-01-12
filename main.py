@@ -65,6 +65,8 @@ def fence_decrypter(data: FenceModel):
     return {"decrypted_text": decrypted_data} 
 
 
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
 
 
 # ============================================================================================================
